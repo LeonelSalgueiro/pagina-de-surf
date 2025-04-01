@@ -1,0 +1,44 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+  /*Base Colors*/
+  --text-color: #000000;
+  --color-highlight: #000000;
+  --background-color: #FAFAFA;
+
+  /*Brand Color*/
+  --snitap-sun: #FFCD1E;
+  --snitap-sky-mid: #06B6D4;
+  --snitap-sky-light: #67E8F9;
+  --snitap-joy-mid: #DB2777;
+  --snitap-joy-light: #F472B6;
+  --snitap-leaf-mid: #16A34A;
+
+  /*Fonts Family*/
+  --ff-primary: "Montserrat", sans-serif;
+  --ff-secondary: "Syne", sans-serif;
+
+  /*Fonts Size Mobile*/
+  --fs-xl: 600 2rem/125%;
+  --fs-lg: 600 1.5rem/120%;
+  --fs-md: 400 0.75rem/150%;
+  --fs-sm: 0.875rem/150%;
+
+}
+
+@media (width >= 80rem) {
+  :root {
+   /*Font Size Desktop*/
+    --fs-xl: 600 4rem/125%;
+    --fs-lg: 600 2.5rem/120%;
+    --fs-md: 400 1rem/150%;
+  }
+
+}
