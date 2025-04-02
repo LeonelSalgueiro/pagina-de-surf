@@ -1,6 +1,7 @@
 
 section.hero {
-  max-width: 80rem;
+  
+  background: url(../assets/image/background-image.png) no-repeat center/cover;
   width: 100%;
   padding: 2.5rem 2rem;
   margin-inline: auto;
