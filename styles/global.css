@@ -11,7 +11,7 @@
   /*Base Colors*/
   --text: #000000;
   --highlight: #000000;
-  --background: #FAFAFA;
+  --bg-color: #FAFAFA;
 
   /*Brand Color*/
   --snitap-sun: #FFCD1E;
@@ -36,6 +36,10 @@
 
 html, button {
   font: var(--fs-md) var(--ff-primary);
+}
+
+body {
+  background-color: var(--bg-color);
 }
 
 h1 {
