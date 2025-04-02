@@ -1,6 +1,6 @@
 
 
-* {
+*, *::after, *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,9 +9,9 @@
 :root {
 
   /*Base Colors*/
-  --text-color: #000000;
-  --color-highlight: #000000;
-  --background-color: #FAFAFA;
+  --text: #000000;
+  --highlight: #000000;
+  --background: #FAFAFA;
 
   /*Brand Color*/
   --snitap-sun: #FFCD1E;
@@ -21,24 +21,39 @@
   --snitap-joy-light: #F472B6;
   --snitap-leaf-mid: #16A34A;
 
-  /*Fonts Family*/
+  /*Font Family*/
   --ff-primary: "Montserrat", sans-serif;
   --ff-secondary: "Syne", sans-serif;
+  --ff-tertiary: "Inter", sans-serif;
 
-  /*Fonts Size Mobile*/
-  --fs-xl: 600 2rem/125%;
-  --fs-lg: 600 1.5rem/120%;
-  --fs-md: 400 0.75rem/150%;
+  /*Font Size Mobile*/
+  --fs-xl: 700 2rem/125%;
+  --fs-lg: 700 1.5rem/120%;
+  --fs-md: 500 0.75rem/150%;
   --fs-sm: 0.875rem/150%;
 
 }
 
+html, button {
+  font: var(--fs-md) var(--ff-primary);
+}
+
+h1 {
+  font: var(--fs-xl) var(--ff-secondary);
+}
+
+h2 {
+  font: var(--fs-lg) var(--ff-secondary);
+}
+
+
+
 @media (width >= 80rem) {
   :root {
    /*Font Size Desktop*/
-    --fs-xl: 600 4rem/125%;
-    --fs-lg: 600 2.5rem/120%;
-    --fs-md: 400 1rem/150%;
+    --fs-xl: 700 4rem/125%;
+    --fs-lg: 700 2.5rem/120%;
+    --fs-md: 500 1rem/150%;
   }
 
 }
