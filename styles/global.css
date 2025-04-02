@@ -26,10 +26,10 @@
   --ff-secondary: "Syne", sans-serif;
   --ff-tertiary: "Inter", sans-serif;
 
-  /*Font Size Mobile*/
-  --fs-xl: 700 2rem/125%;
-  --fs-lg: 700 1.5rem/120%;
-  --fs-md: 500 0.75rem/150%;
+  /*Font Size Desktop*/
+  --fs-xl: 700 4rem/125%;
+  --fs-lg: 700 2.5rem/120%;
+  --fs-md: 500 1rem/150%;
   --fs-sm: 0.875rem/150%;
 
 }
@@ -53,12 +53,9 @@ a {
 
 
 
-@media (width >= 80rem) {
+/*@media (width < 80rem) {
   :root {
-   /*Font Size Desktop*/
-    --fs-xl: 700 4rem/125%;
-    --fs-lg: 700 2.5rem/120%;
-    --fs-md: 500 1rem/150%;
-  }
-
-}
+   Font Size Mobile
+   --fs-xl: 700 2rem/125%;
+   --fs-lg: 700 1.5rem/120%;
+   --fs-md: 500 0.75rem/150%;*/
