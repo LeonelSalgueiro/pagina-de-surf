@@ -46,6 +46,11 @@ h2 {
   font: var(--fs-lg) var(--ff-secondary);
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 
 
 @media (width >= 80rem) {
