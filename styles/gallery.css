@@ -5,6 +5,9 @@ section.gallery {
   padding: 2.5rem 2rem;
   margin-inline: auto;
 
+  & span {
+    text-transform: uppercase;
+  }
 
   & header {
     text-align: center;
